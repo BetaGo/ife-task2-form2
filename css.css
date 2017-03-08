@@ -1,0 +1,87 @@
+    .form-signup {
+      position: relative;
+      width: 1200px;
+      margin: 30px auto;
+    }
+    
+    .form-input-section {
+      font-size: 28px;
+    }
+    
+    .form-input-label {
+      float: left;
+      box-sizing: border-box;
+      width: 200px;
+      margin: 15px 0;
+      text-align: right;
+      vertical-align: top;
+      padding-right: 40px;
+    }
+    
+    .form-input-box {
+      float: left;
+      margin: 15px 0;
+    }
+    
+    .form-input-text {
+      box-sizing: border-box;
+      width: 1000px;
+      height: 70px;
+      font-size: 28px;
+      line-height: 70px;
+      padding-left: 1em;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      outline: none;
+    }
+    
+    .form-input-text:focus {
+      border: 2px solid #64aeef;
+      box-shadow: 0px 1px 3px 1px rgba(100, 174, 239, 0.4);
+      ;
+    }
+    
+    .form-input-hint {
+      margin: 5px 0;
+      color: #a4a4a4;
+    }
+    
+    .good-input-border {
+      border: 2px solid #5ebb48 !important;
+    }
+    
+    .good-input-hint {
+      color: #5ebb48 !important;
+    }
+    
+    .bad-input-border {
+      border: 2px solid #de020c !important;
+    }
+    
+    .bad-input-hint {
+      color: #de020c !important;
+    }
+    
+    .btn {
+      float: right;
+      border: none;
+      outline: none;
+      height: 70px;
+      width: 160px;
+      font-size: 28px;
+      border-radius: 5px;
+      margin-top: 30px;
+      margin-right: 0;
+      color: #fff;
+      background-color: #2f79ba;
+    }
+
+    .btn:hover,
+    .btn:focus,
+    .btn:active {
+      opacity: 0.8;
+    }
+    
+    .hide {
+      display: none;
+    }

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>任务二：表单（二）多个表单项的动态校验</title>
+  <link rel="stylesheet" href="./css.css">
+</head>
+
+<body>
+  <form class="form-signup" action="#" method="POST" onsubmit="return checkform(this)">
+    <div class="form-input-section">
+      <label class="form-input-label" for="name">名称</label>
+      <div class="form-input-box">
+        <input type="text" id="username" class="form-input-text" name="username">
+        <p id="name_hint" class="form-input-hint hide"></p>
+      </div>
+    </div>
+    <div class="form-input-section">
+      <label class="form-input-label" for="password">密码</label>
+      <div class="form-input-box">
+        <input type="password" id="password" class="form-input-text" name="password">
+        <p id="password_hint" class="form-input-hint hide">请输入您的密码</p>
+      </div>
+    </div>
+    <div class="form-input-section">
+      <label class="form-input-label" for="repassword">密码确认</label>
+      <div class="form-input-box">
+        <input type="password" id="repassword" class="form-input-text" name="repassword">
+        <p id="repassword_hint" class="form-input-hint hide">请再次输入您的密码</p>
+      </div>
+    </div>
+    <div class="form-input-section">
+      <label class="form-input-label" for="email">邮箱</label>
+      <div class="form-input-box">
+        <input type="text" id="email" class="form-input-text" name="email">
+        <p id="email_hint" class="form-input-hint hide">请输入您的邮箱地址</p>
+      </div>
+    </div>
+    <div class="form-input-section">
+      <label class="form-input-label" for="cellphone">手机</label>
+      <div class="form-input-box">
+        <input type="text" id="cellphone" class="form-input-text" name="cellphone">
+        <p id="cellphone_hint" class="form-input-hint hide">请输入您的手机号码</p>
+      </div>
+    </div>
+    <button class="btn">提交</button>
+  </form>
+
+  <script src="./js.js"></script>
+</body>
+
+</html>
